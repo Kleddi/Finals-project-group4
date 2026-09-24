@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events - Campus Event &amp; Club Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="events">
+  <header>
+    <h1>Campus Event &amp; Club Hub</h1>
+    <p>Group members: (add your names here)</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="events.html" aria-current="page">Events</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="bookmarks.html">Bookmarks</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Events</h2>
+      <div class="filters" role="group" aria-label="Filter by category">
+        <button class="filter-btn active" data-category="All" aria-pressed="true">All</button>
+        <button class="filter-btn" data-category="Academic" aria-pressed="false">Academic</button>
+        <button class="filter-btn" data-category="Social" aria-pressed="false">Social</button>
+        <button class="filter-btn" data-category="Sports" aria-pressed="false">Sports</button>
+      </div>
+      <div id="events" class="cards" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built for the finals project.</p>
+  </footer>
+
+  <script src="events.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

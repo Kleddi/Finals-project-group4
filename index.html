@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Campus Event &amp; Club Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="index">
+  <header>
+    <h1>Campus Event &amp; Club Hub</h1>
+    <p>Group members: (add your names here)</p>
+    <nav>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="events.html">Events</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="bookmarks.html">Bookmarks</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Find what is happening on campus</h2>
+      <p>
+        Clubs post their events here. Filter by category, look at the calendar,
+        and bookmark the events you do not want to forget. Your bookmarks are
+        saved in your browser, so you do not need an account.
+      </p>
+      <p><a class="button" href="events.html">Browse all events</a></p>
+    </section>
+    <section>
+      <h2>Coming up</h2>
+      <div id="upcoming" class="cards" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built for the finals project.</p>
+  </footer>
+
+  <script src="events.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

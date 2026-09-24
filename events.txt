@@ -1,0 +1,9 @@
+# id|title|club|category|date (YYYY-MM-DD)|time (HH:MM, 24-hour)|location|description
+e1|Intro to Python Workshop|Coding Club|Academic|2026-09-29|17:00|Room 204, Science Building|Bring a laptop. We start from zero and write a small game.
+e2|Study Skills Panel|Peer Tutoring Society|Academic|2026-10-06|16:00|Library Room 2|Upperclass students share how they study and manage their time.
+e3|Research Poster Night|Honors Club|Academic|2026-10-15|18:30|Student Center Hall|Look at student research posters and vote for your favorite.
+e4|Welcome Back Movie Night|Film Society|Social|2026-09-26|19:00|Quad Lawn|Free popcorn. Bring a blanket.
+e5|Club Fair Mixer|Student Council|Social|2026-10-02|15:00|Main Gym|Meet every club on campus and sign up for updates.
+e6|Board Game Cafe|Board Game Club|Social|2026-10-20|18:00|Student Center Room 3|Casual games and snacks. No experience needed.
+e7|Intramural Soccer Signups|Sports Committee|Sports|2026-09-30|12:00|Rec Center Front Desk|Sign up your team of 6 to 8 players.
+e8|Fun Run 5K|Running Club|Sports|2026-10-10|08:00|North Track|Walk or run. All paces welcome.

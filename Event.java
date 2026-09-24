@@ -1,11 +1,11 @@
-// One campus event. Java reads events.txt and makes a list of these.
+// This class stores the details of one event.
 public class Event {
     private String id;
     private String title;
     private String club;
     private String category;
-    private String date;        // YYYY-MM-DD
-    private String time;        // HH:MM, 24-hour
+    private String date;        // example: 2026-09-29
+    private String time;        // example: 17:00
     private String location;
     private String description;
 

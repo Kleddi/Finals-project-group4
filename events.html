@@ -6,10 +6,14 @@
   <title>Events - Campus Event &amp; Club Hub</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body data-page="events">
+<body>
   <header>
     <h1>Campus Event &amp; Club Hub</h1>
-    <p>Group members: (add your names here)</p>
+    <p>Group members:</p>
+    <p>Constantino, Randell</p>
+    <p>Gloriani, Keane Ezekiel</p>
+    <p>Gurrobat, Jeric</p>
+    <p>Pangan, Stephen</p>
     <nav>
       <a href="index.html">Home</a>
       <a href="events.html" aria-current="page">Events</a>
@@ -22,20 +26,42 @@
     <section>
       <h2>Events</h2>
       <div class="filters" role="group" aria-label="Filter by category">
-        <button class="filter-btn active" data-category="All" aria-pressed="true">All</button>
-        <button class="filter-btn" data-category="Academic" aria-pressed="false">Academic</button>
-        <button class="filter-btn" data-category="Social" aria-pressed="false">Social</button>
-        <button class="filter-btn" data-category="Sports" aria-pressed="false">Sports</button>
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">event</button>
+        <button class="filter-btn">event</button>
+        <button class="filter-btn">event</button>
       </div>
-      <div id="events" class="cards" aria-live="polite"></div>
+      <p class="meta">examples</p>
+      <div class="cards">
+        <article class="card cat-Academic">
+          <span class="tag">event</span>
+          <h3>event</h3>
+          <p class="meta">time and place</p>
+          <p class="meta">hosters</p>
+          <p>description</p>
+        </article>
+        <article class="card cat-Social">
+          <span class="tag">event</span>
+          <h3>event</h3>
+          <p class="meta">time and place</p>
+          <p class="meta">hosters</p>
+          <p>description</p>
+        </article>
+        <article class="card cat-Sports">
+          <span class="tag">event</span>
+          <h3>event</h3>
+          <p class="meta">time and place</p>
+          <p class="meta">hosters</p>
+          <p>description</p>
+        </article>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>Built for the finals project.</p>
+    <p>Built for Introduction to Web developing</p>
   </footer>
 
-  <script src="events.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

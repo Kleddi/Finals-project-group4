@@ -6,7 +6,7 @@
   <title>Home - Campus Event &amp; Club Hub</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body data-page="home">
   <header>
     <h1>Campus Event &amp; Club Hub</h1>
     <p>Group members:</p>
@@ -24,11 +24,14 @@
 
   <main>
     <section>
-      <h2>campus events</h2>
-      <p>
-        event calendar
-      </p>
-      <p><a class="button" href="events.html">Browse events</a></p>
+      <h2>Campus events, all in one place</h2>
+      <p>Find what's happening on campus, filter by category, see it on the calendar and bookmark the events you don't want to miss.</p>
+      <div id="stats" class="stats"></div>
+      <p><a class="button" href="events.html">Browse events</a> <a class="button" href="calendar.html">Open calendar</a></p>
+    </section>
+    <section>
+      <h2>Coming up next</h2>
+      <div id="upcoming" class="cards"></div>
     </section>
   </main>
 

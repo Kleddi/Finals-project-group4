@@ -1,0 +1,13 @@
+# id|title|club|category|date|time|location|description
+e01|Midterm Study Marathon|Honor Society|Academic|2026-10-14|09:00|Library Room 204|All-day group study with free coffee and peer tutors for math, science and programming.
+e02|Intro to Web Dev Workshop|Computer Science Club|Academic|2026-10-16|15:00|Lab B, IT Building|Hands-on HTML, CSS and JavaScript session for beginners. Bring your laptop.
+e03|Intramural Basketball Opener|Varsity Sports Council|Sports|2026-10-17|16:00|Main Gymnasium|Opening games of the intramural season. Come cheer for your department.
+e04|Fall Welcome Mixer|Student Council|Social|2026-10-20|18:00|Student Plaza|Meet clubs, enjoy food stalls and live acoustic music.
+e05|Research Poster Fair|Science Society|Academic|2026-10-22|10:00|Atrium Hall|Students present research posters. Open to everyone, judges from faculty.
+e06|Fun Run 5K|Fitness Club|Sports|2026-10-24|06:30|Campus Oval|A friendly 5K run around campus. Registration includes a free shirt.
+e07|Movie Night Under the Stars|Film Society|Social|2026-10-28|19:00|North Lawn|Outdoor screening of a student-voted film. Bring a blanket.
+e08|Career Talk: Careers in Tech|Computer Science Club|Academic|2026-11-03|14:00|Auditorium A|Alumni from local tech companies share advice on internships and first jobs.
+e09|Volleyball Friendly Match|Varsity Sports Council|Sports|2026-11-07|15:00|Main Gymnasium|Friendly match between the engineering and business teams.
+e10|Cultural Night|Cultural Arts Guild|Social|2026-11-12|18:30|Open Theater|Dance, music and food showcasing the many cultures of our campus.
+e11|Debate Tournament Finals|Debate Society|Academic|2026-11-18|13:00|Auditorium B|Final round of the inter-college debate tournament.
+e12|Badminton Open|Fitness Club|Sports|2026-11-21|09:00|Sports Annex|Singles and doubles badminton tournament for all skill levels.

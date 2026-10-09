@@ -6,7 +6,7 @@
   <title>Bookmarks - Campus Event &amp; Club Hub</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body data-page="bookmarks">
   <header>
     <h1>Campus Event &amp; Club Hub</h1>
     <p>Group members:</p>
@@ -25,7 +25,9 @@
   <main>
     <section>
       <h2>My bookmarks</h2>
-      <p>Saved events</p>
+      <p class="meta" id="bm-count" aria-live="polite"></p>
+      <div id="bookmarks" class="cards"></div>
+      <p><button id="clear-bm" hidden>Clear all bookmarks</button></p>
     </section>
   </main>
 

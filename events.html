@@ -6,7 +6,7 @@
   <title>Events - Campus Event &amp; Club Hub</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body data-page="events">
   <header>
     <h1>Campus Event &amp; Club Hub</h1>
     <p>Group members:</p>
@@ -26,35 +26,15 @@
     <section>
       <h2>Events</h2>
       <div class="filters" role="group" aria-label="Filter by category">
-        <button class="filter-btn active">All</button>
-        <button class="filter-btn">Academic</button>
-        <button class="filter-btn">Social</button>
-        <button class="filter-btn">Sports</button>
+        <button class="filter-btn active" data-cat="All">All</button>
+        <button class="filter-btn" data-cat="Academic">Academic</button>
+        <button class="filter-btn" data-cat="Social">Social</button>
+        <button class="filter-btn" data-cat="Sports">Sports</button>
       </div>
-      <p class="meta">Sample cards. Real events from events.txt will replace these.</p>
-      <div class="cards">
-        <article class="card cat-Academic">
-          <span class="tag">Academic</span>
-          <h3>Sample academic event</h3>
-          <p class="meta">Date, time and place</p>
-          <p class="meta">Hosting club</p>
-          <p>Short description of the event.</p>
-        </article>
-        <article class="card cat-Social">
-          <span class="tag">Social</span>
-          <h3>Sample social event</h3>
-          <p class="meta">Date, time and place</p>
-          <p class="meta">Hosting club</p>
-          <p>Short description of the event.</p>
-        </article>
-        <article class="card cat-Sports">
-          <span class="tag">Sports</span>
-          <h3>Sample sports event</h3>
-          <p class="meta">Date, time and place</p>
-          <p class="meta">Hosting club</p>
-          <p>Short description of the event.</p>
-        </article>
-      </div>
+      <p><label for="search" class="meta">Search events</label><br />
+      <input id="search" type="search" placeholder="Title, club or place..." /></p>
+      <p id="count" class="meta" aria-live="polite"></p>
+      <div id="events" class="cards"></div>
     </section>
   </main>
 
